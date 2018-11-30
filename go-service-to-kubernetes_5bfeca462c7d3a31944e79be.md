@@ -31,8 +31,8 @@ You are going to need a `secret` for storing
 
 ## The Go code
 
-The Go program that implements the web server is called web.go and contains the
-following code:
+The Go program that implements the web server is called `web.go` and contains
+the following code:
 
 	package main
     
@@ -84,11 +84,20 @@ different port number as a command line argument.
 
 ## The Kubernetes setup
 
+In order to create a Kubernetes service, you will need to setup Google Cloud
+Platform as well as Kubernetes itself.
 
+That setup will make the Go web server available from anywhere on the Internet.
+The only thing that you will need to define is the TCP port number that your
+Kubernetes service will use to communicate with the outer world.
 
 ## The Semaphore project
 
 The `.semaphore/semaphore.yml` file that will be used is as follows:
+
+
+After that you can verify that you have the Go web service running as a
+Kubernetes service as follows:
 
 
 ## See also
