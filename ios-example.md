@@ -4,8 +4,7 @@ This guide shows you how to use Semaphore to set up a continuous integration
 * [Demo project](#demo-project)
 * [Overview of the CI pipeline](#overview-of-the-ci-pipeline)
 * [Sample configuration](#sample-configuration)
-* [Run the demo Laravel project yourself](#run-the-demo-laravel-project-yourself)
-* [Next steps](#next-steps)
+* [Run the demo iOS app project yourself](#run-the-demo-laravel-project-yourself)
 * [See also](#see-also)
 
 ## Demo project
@@ -17,7 +16,7 @@ Semaphore maintains an example iOS project:
 In the repository you will find an annotated Semaphore configuration file
 `.semaphore/semaphore.yml`.
 
-The application uses the latest stable version of Xcode, Fastlane and Xcode-select
+The application uses the latest stable version of Xcode and Fastlane.
 
 ## Overview of the CI pipeline
 
